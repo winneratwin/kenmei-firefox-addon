@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "kenmei easy adding",
+	"version": "1.1.1",
+	"description": "Adds the manga you are on to kenmei.",
+	"icons":
+		{
+			"48": "icon-48.png"
+		},
+	"browser_action":
+		{
+			"default_popup":"popup.html"
+		},
+	"permissions":
+	[
+		"storage",
+		"tabs",
+		"*://api.kenmei.co/api/v1/*/*"
+	]
+}

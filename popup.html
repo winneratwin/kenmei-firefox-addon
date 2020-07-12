@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>addon popup</title>
+	</head>
+	<body>
+		<div id="main">
+			<h3 style="font-family:'times new roman'">Send url to kenmei<h3>
+			<button type="button" id="sendurl">Add to kenmei</button>
+			<button type="button" id="button">Login details!</button>
+		</div>
+		<div id="account" style="display:none">
+			<h3 style="font-family:'times new roman'">Settings for kenmei<h3>
+			<div>
+				<p style="margin:3px">E-mail: </p><input id="username" type="text"/>
+			</div>
+			<div>
+				<p style="margin:3px">Password:</p><input id="password" type="text"/>
+			</div>
+			<div>
+				<p style="margin:3px">Status: </p>
+				<select id="myList">
+			</div>
+				<option value="1">reading</option>
+        <option value="2">on hold</option>
+        <option value="3">plan to read</option>
+        <option value="4">completed</option>
+				<option value="5">dropped</option>
+			</select>
+			<script src="popup.js"></script>
+		</div>
+	</body>
+</html>
